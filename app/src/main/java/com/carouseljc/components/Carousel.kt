@@ -71,7 +71,7 @@ fun Carousel(modifier: Modifier = Modifier, imagesList: State<List<CarouselItem>
     }
 
     Box(modifier = modifier) {
-
+//
         HorizontalPager(
             count = imagesList.value.size,
             state = pagerState,
