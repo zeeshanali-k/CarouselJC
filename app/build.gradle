@@ -65,6 +65,6 @@ dependencies {
 
     implementation "com.google.accompanist:accompanist-pager:0.20.0"
     implementation "com.google.accompanist:accompanist-pager-indicators:0.20.0"
-
+    //Image Loading Lib
     implementation("io.coil-kt:coil-compose:1.4.0")
 }
