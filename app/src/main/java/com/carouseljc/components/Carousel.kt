@@ -55,7 +55,7 @@ fun Carousel(modifier: Modifier = Modifier, imagesList: State<List<CarouselItem>
             handler.removeCallbacks(runnable)
         }
     }
-
+//Launched Effect
     LaunchedEffect(key1 = pagerState) {
         // Collect from the a snapshotFlow reading the currentPage
         snapshotFlow { pagerState.currentPage }.collect {
